@@ -1,0 +1,42 @@
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.log
+
+# Binaries
+/fmq
+/proxy
+/build
+/dist
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git & version control
+.git
+.gitignore
+
+# Docker/CI
+.dockerignore
+docker-compose.yml
+
+# Test data or local configs
+*.local
+.env
+*.bak
+*.tmp
+
+# Readme
+*.md
