@@ -1,11 +1,9 @@
-# TranscodeDestroyer3000
-
 > [!CAUTION]
 > This is an experiment and is being tested. Use at your own discretion.
 
 This proxy sits in front of plex like this:
 
-`Internet -> Caddy/Nginx -> TranscodeDestroyer3000 -> Plex`
+`Internet -> Caddy/Nginx -> FMQ Proxy -> Plex`
 
 It will intercept playback requests and force maximum quality. Other requests are unaffected.
 
